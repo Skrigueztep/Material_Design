@@ -14,6 +14,7 @@ Inside this section of repo
 
 # Material Design Bootstrap CDN
 
+
 # MDB for Angular v7.5.4
 
 # ---------- NPM Package -----------------
@@ -24,10 +25,12 @@ https://github.com/mdbootstrap/Angular-Bootstrap-with-Material-Design
 ----------------------------------------
 
 # ---------- Source Code -----------------
+
 Inside this section pf repo
 ----------------------------------------
 
 # MDB for JQuery v4.8.2
+
 
 --------- NPM Package ------------------
 npm install mdbootstrap
