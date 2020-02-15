@@ -1,0 +1,84 @@
+# By convention add sufix .servcice to filename
+# Reference: https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files
+# 
+#
+[Unit]
+# Description about the service (short name)
+# Description=Short Description Text (Showed on man)
+# Description=
+#
+# Documentation internal (man) or URL external
+# Eg. Documentation=https://domain.com
+# Documentation=
+#
+# After services run
+# Eg. After=network.target
+# After=
+#
+# Services (not necessary services) that it depends
+# Eg. Requires=network.target
+# Requires=
+# 
+# Wants=     
+
+[Service]
+# Command to Exec at start Service
+# Eg. ExecStart=/opt/lib/bin/node app.js
+# ExecStart=
+#
+# Workspace directory
+# WorkingDirectory=/opt/project
+# WorkingDirectory=
+#
+# User requiere to exec
+# Eg. User=userProject owner of project (Avoid RCE (Remote Code Execution) / Privileges scalation vulneravilities)
+# User=
+#
+# Group that can exec
+# Group=
+#
+# Enviroment variable
+# Eg. Environment=NODE_ENV=production
+# Environment=NODE_ENV=production
+# 
+# Restart service at Boot System
+# Restart=always
+#
+# Type of service
+# Type=simple | forking | oneshot | dbus | notify | idle
+# Type=simple
+#
+# Seconds to restart after boot
+# RestartSec=#
+# RestartSec=
+#
+# TimeoutStartSec=10000
+#
+# StandardOutput=
+#
+# StandardError=
+#
+# SyslogIdentifier=
+#
+# ExecStartPre=
+#
+# ExecStartPost=
+#
+# ExecStop=
+#
+# ExecReload=
+
+[Install]
+#
+# RequireBy=
+#
+# Wait to start dependency services
+# WantedBy=
+#
+# Alias=
+#
+[Mount]
+#
+# What=
+#
+# Where=
